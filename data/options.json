@@ -1,0 +1,100 @@
+
+[
+  {
+    "id": "scene",
+    "title": "1. Describe the Scene",
+    "description": "Start with the main subject and action. Be descriptive and paint a picture.",
+    "type": "text",
+    "placeholder": "e.g., A cinematic, dramatic video starting with an aerial shot from a helicopter overlooking a chaotic beach scene where a gigantic, monstrous shark has washed ashore."
+  },
+  {
+    "id": "dialogue",
+    "title": "2. Add Dialogue (Optional)",
+    "description": "What does a character say? Write the dialogue here.",
+    "type": "text",
+    "placeholder": "e.g., \"This must be it. That's the secret code.\""
+  },
+  {
+    "id": "style",
+    "title": "3. Choose a Style",
+    "description": "What's the overall aesthetic? This sets the mood.",
+    "type": "single-select",
+    "options": [
+      { "label": "Photorealistic", "value": "Photorealistic, ultra-detailed." },
+      { "label": "Cinematic", "value": "Cinematic, movie-style action." },
+      { "label": "Hyper-realistic", "value": "Hyper-realistic with realistic textures." },
+      { "label": "Anime / Animated", "value": "Anime or semi-realistic style." },
+      { "label": "Fantasy", "value": "A whimsical fantasy landscape." },
+      { "label": "Surreal", "value": "A surreal, dreamlike atmosphere." },
+      { "label": "Minimalist", "value": "A clean, minimalist look." },
+      { "label": "Vintage / Retro", "value": "A vintage, grainy black-and-white look." }
+    ]
+  },
+  {
+    "id": "cameraShot",
+    "title": "4. Select a Camera Shot",
+    "description": "How is the scene framed?",
+    "type": "single-select",
+    "options": [
+      { "label": "Close-Up", "value": "Close-up shot." },
+      { "label": "Macro", "value": "Macro lens, extreme close-up." },
+      { "label": "Wide Shot", "value": "Wide-angle cinematic shot." },
+      { "label": "Aerial / Drone", "value": "Aerial shot from a helicopter." },
+      { "label": "POV", "value": "First-person POV." },
+      { "label": "Over-the-Shoulder", "value": "Over-the-shoulder shot." }
+    ]
+  },
+  {
+    "id": "lighting",
+    "title": "5. Define the Lighting",
+    "description": "Light is key to emotion and drama.",
+    "type": "single-select",
+    "options": [
+      { "label": "Dramatic", "value": "Dramatic golden backlight, lens flares." },
+      { "label": "Soft & Natural", "value": "Soft natural daylight." },
+      { "label": "Neon", "value": "Neon-lit, glowing pink, blue, and purple reflections." },
+      { "label": "Moody", "value": "Soft and moody lighting." },
+      { "label": "Studio", "value": "Cinematic studio lighting." }
+    ]
+  },
+  {
+    "id": "composition",
+    "title": "6. Add Composition Details",
+    "description": "Fine-tune the visual elements (select multiple).",
+    "type": "multi-select",
+    "options": [
+      { "label": "Shallow Depth of Field", "value": "Shallow depth of field." },
+      { "label": "Motion Blur", "value": "Shimmering motion blur." },
+      { "label": "Slow Motion", "value": "Captured in slow motion." },
+      { "label": "High Contrast", "value": "High-contrast, dramatic shadows." },
+      { "label": "Dynamic Angle", "value": "Dynamic tilted angle." }
+    ]
+  },
+  {
+    "id": "format",
+    "title": "7. Specify Format",
+    "description": "Technical details for the final output (select multiple).",
+    "type": "multi-select",
+    "options": [
+      { "label": "16:9 Aspect Ratio", "value": "16:9 aspect ratio." },
+      { "label": "9:16 Aspect Ratio", "value": "9:16 aspect ratio." },
+      { "label": "8 Second Duration", "value": "8-second video." },
+      { "label": "24 FPS", "value": "24fps." },
+      { "label": "4K Resolution", "value": "4K resolution." },
+      { "label": "8K Ultra-HD", "value": "8K ultra-HD clarity." }
+    ]
+  },
+  {
+    "id": "extras",
+    "title": "8. Include Extra Directives",
+    "description": "Final touches and negative prompts (select multiple).",
+    "type": "multi-select",
+    "options": [
+      { "label": "ASMR Sounds", "value": "Rich ASMR audio." },
+      { "label": "No Text", "value": "No text." },
+      { "label": "No People", "value": "No people." },
+      { "label": "Fixed Camera", "value": "Fixed camera throughout." },
+      { "label": "Continuous Shot", "value": "One continuous, unbroken take." }
+    ]
+  }
+]
